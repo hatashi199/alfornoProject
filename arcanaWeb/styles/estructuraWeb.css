@@ -1,0 +1,775 @@
+
+/*------------------------ CLASES_GENERALES ------------------------*/
+
+.contenidoPrincipal{
+	padding: 30px 10px;
+	min-height: 60vh;
+}
+
+.contenido {
+    padding: 50px 0px;
+}
+
+.txCentrado{
+	text-align: center;
+}
+
+.txDerecha{
+	text-align: right;
+}
+
+.txIzquierda {
+    text-align: left;
+}
+
+.overhide {
+    overflow: hidden;
+}
+
+
+/*------------------------ MARGENES ------------------------*/
+
+.mTop20 {
+    margin-top: 20px;
+}
+
+.mBottom20 {
+    margin-bottom: 20px;
+}
+
+.mTop40 {
+    margin-top: 40px;
+}
+
+.mBottom40 {
+    margin-bottom: 40px;
+}
+
+.mTop60 {
+    margin-top: 60px;
+}
+
+.mBottom60 {
+    margin-bottom: 60px;
+}
+
+
+/*------------------------ PADDINGS ------------------------*/
+
+.pTop20 {
+    padding-top: 20px;
+}
+
+.pBottom20 {
+    padding-bottom: 20px;
+}
+
+.pTop40 {
+    padding-top: 40px;
+}
+
+.pBottom40 {
+    padding-bottom: 40px;
+}
+
+.pTop60 {
+    padding-top: 60px;
+}
+
+.pBottom60 {
+    padding-bottom: 60px;
+}
+
+
+/*------------------------- ESTILOS_ESTRUCTURALES(extra-small) ------------
+  --------------------------------------- MOVIL ---------------------------
+  ---------------------------------------- & ------------------------------
+  ------------------------------------ CLASES_FLEX ------------------------*/
+
+.centrado {
+    width: 95%;  /*-- Tamaño del elemento a centrar --*/
+}
+
+section{
+    padding: 50px 0;
+}
+
+article{
+    padding: 20px 10px;
+    margin: 10px 0;
+}
+
+.xs100{
+    width: 100%;
+}
+
+.xs95{
+    width: 95%;
+}
+
+.xs90{
+    width: 90%;
+}
+
+.xs85{
+    width: 85%;
+}
+
+.xs80{
+    width: 80%;
+}
+
+.xs75{
+    width: 75%;
+}
+
+.xs70{
+    width: 70%;
+}
+
+.xs65{
+    width: 65%;
+}
+
+.xs60{
+    width: 60%;
+}
+
+.xs55{
+    width: 55%;
+}
+
+.xs50{
+    width: 50%;
+}
+
+.xs45{
+    width: 45%;
+}
+
+.xs40{
+    width: 40%;
+}
+
+.xs35{
+    width: 35%;
+}
+
+.xs30{
+    width: 30%;
+}
+
+.xs25{
+    width: 25%;
+}
+
+.xs20{
+    width: 20%;
+}
+
+.xs15{
+    width: 15%;
+}
+
+.xs10{
+    width: 10%;
+}
+
+.xs5{
+    width: 5%;
+}
+
+.flex{
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.xs_fCol{
+    flex-flow: column;
+}
+
+.xs_fColReverse{
+    flex-flow: column-reverse;
+}
+
+.xs_filaWrap{
+    flex-flow: row wrap;
+}
+
+.xs_filaReverse{
+    flex-flow: row-reverse;
+}
+
+.xs_aiCenter{
+    align-items: center;
+}
+
+.xs_aiStart{
+    align-items: flex-start;
+}
+
+.xs_aiEnd{
+    align-items: flex-end;
+}
+
+.xs_jcCenter{
+    justify-content: center;
+}
+
+.xs_jcSpabet{
+    justify-content: space-between;
+}
+
+.xs_jcSparo{
+    justify-content: space-around;
+}
+
+.xs_jcEnd{
+    justify-content: flex-end;
+}
+
+.xs_asCenter {
+    align-self: center;
+}
+
+
+/*------------------------- ESTILOS_ESTRUCTURALES(small) ---------------
+  ------------------------------ ENTRE_MOVIL_TABLET --------------------
+  -------------------------------------- & -----------------------------
+  --------------------------------- CLASES_FLEX ------------------------*/
+
+@media only screen and (min-width: 425px){
+
+    .s100{
+        width: 100%;
+    }
+
+    .s95{
+        width: 95%;
+    }
+
+    .s90{
+        width: 90%;
+    }
+
+    .s85{
+        width: 85%;
+    }
+
+    .s80{
+        width: 80%;
+    }
+
+    .s75{
+        width: 75%;
+    }
+
+    .s70{
+        width: 70%;
+    }
+
+    .s65{
+        width: 65%;
+    }
+
+    .s60{
+        width: 60%;
+    }
+
+    .s55{
+        width: 55%;
+    }
+
+    .s50{
+        width: 50%;
+    }
+
+    .s45{
+        width: 45%;
+    }
+
+    .s40{
+        width: 40%;
+    }
+
+    .s35{
+        width: 35%;
+    }
+
+    .s30{
+        width: 30%;
+    }
+
+    .s25{
+        width: 25%;
+    }
+
+    .s20{
+        width: 20%;
+    }
+
+    .s15{
+        width: 15%;
+    }
+
+    .s10{
+        width: 10%;
+    }
+
+    .s5{
+        width: 5%;
+    }
+    
+    .s_fCol{
+        flex-flow: column;
+    }
+
+    .s_fColReverse{
+        flex-flow: column-reverse;
+    }
+    
+    .s_filaWrap{
+        flex-flow: row wrap;
+    }
+
+    .s_filaReverse{
+        flex-flow: row-reverse;
+    }
+
+    .s_aiCenter{
+        align-items: center;
+    }
+
+    .s_aiStart{
+        align-items: flex-start;
+    }
+
+    .s_aiEnd{
+        align-items: flex-end;
+    }
+
+    .s_jcCenter{
+        justify-content: center;
+    }
+
+    .s_jcSpabet{
+        justify-content: space-between;
+    }
+
+    .s_jcSparo{
+        justify-content: space-around;
+    }
+    
+    .s_jcEnd{
+        justify-content: flex-end;
+    }
+}
+
+
+/*------------------------- ESTILOS_ESTRUCTURALES(medium) --------------
+  ----------------------------------- TABLET ---------------------------
+  -------------------------------------- & -----------------------------
+  --------------------------------- CLASES_FLEX ------------------------*/
+
+  @media only screen and (min-width: 810px){ /*Son 768px*/
+    
+    .centrado{
+        width: 95%;
+    }
+
+    .m100{
+        width: 100%;
+    }
+
+    .m95{
+        width: 95%;
+    }
+
+    .m90{
+        width: 90%;
+    }
+
+    .m85{
+        width: 85%;
+    }
+
+    .m80{
+        width: 80%;
+    }
+
+    .m75{
+        width: 75%;
+    }
+
+    .m70{
+        width: 70%;
+    }
+
+    .m65{
+        width: 65%;
+    }
+
+    .m60{
+        width: 60%;
+    }
+
+    .m55{
+        width: 55%;
+    }
+
+    .m50{
+        width: 50%;
+    }
+
+    .m45{
+        width: 45%;
+    }
+
+    .m40{
+        width: 40%;
+    }
+
+    .m35{
+        width: 35%;
+    }
+
+    .m30{
+        width: 30%;
+    }
+
+    .m25{
+        width: 25%;
+    }
+
+    .m20{
+        width: 20%;
+    }
+
+    .m15{
+        width: 15%;
+    }
+
+    .m10{
+        width: 10%;
+    }
+
+    .m5{
+        width: 5%;
+    }
+    
+    .m_fCol{
+        flex-flow: column;
+    }
+
+    .m_fColReverse{
+        flex-flow: column-reverse;
+    }
+    
+    .m_filaWrap{
+        flex-flow: row wrap;
+    }
+
+    .m_filaReverse{
+        flex-flow: row-reverse;
+    }
+
+    .m_aiCenter{
+        align-items: center;
+    }
+
+    .m_aiStart{
+        align-items: flex-start;
+    }
+
+    .m_aiEnd{
+        align-items: flex-end;
+    }
+
+    .m_jcCenter{
+        justify-content: center;
+    }
+
+    .m_jcSpabet{
+        justify-content: space-between;
+    }
+
+    .m_jcSparo{
+        justify-content: space-around;
+    }
+    
+    .m_jcEnd{
+        justify-content: flex-end;
+    }
+}
+
+
+/*------------------------- ESTILOS_ESTRUCTURALES(large) --------------
+  --------------------------------- ORDENADOR -------------------------
+  ------------------------------------- & -----------------------------
+  -------------------------------- CLASES_FLEX ------------------------*/
+
+@media only screen and (min-width: 1024px){
+
+    .centrado{
+        width: 960px;
+    }
+
+    section{
+        padding: 50px 0;
+    }
+
+    .l100{
+        width: 100%;
+    }
+
+    .l95{
+        width: 95%;
+    }
+
+    .l90{
+        width: 90%;
+    }
+
+    .l85{
+        width: 85%;
+    }
+
+    .l80{
+        width: 80%;
+    }
+
+    .l75{
+        width: 75%;
+    }
+
+    .l70{
+        width: 70%;
+    }
+
+    .l65{
+        width: 65%;
+    }
+
+    .l60{
+        width: 60%;
+    }
+
+    .l55{
+        width: 55%;
+    }
+
+    .l50{
+        width: 50%;
+    }
+
+    .l45{
+        width: 45%;
+    }
+
+    .l40{
+        width: 40%;
+    }
+
+    .l35{
+        width: 35%;
+    }
+
+    .l30{
+        width: 30%;
+    }
+
+    .l25{
+        width: 25%;
+    }
+
+    .l20{
+        width: 20%;
+    }
+
+    .l15{
+        width: 15%;
+    }
+
+    .l10{
+        width: 10%;
+    }
+
+    .l5{
+        width: 5%;
+    }
+    
+    .l_fCol{
+        flex-flow: column;
+    }
+
+    .l_fColReverse{
+        flex-flow: column-reverse;
+    }
+    
+    .l_filaWrap{
+        flex-flow: row wrap;
+    }
+
+    .l_filaReverse{
+        flex-flow: row-reverse;
+    }
+
+    .l_aiCenter{
+        align-items: center;
+    }
+
+    .l_aiStart{
+        align-items: flex-start;
+    }
+
+    .l_aiEnd{
+        align-items: flex-end;
+    }
+
+    .l_jcCenter{
+        justify-content: center;
+    }
+
+    .l_jcSpabet{
+        justify-content: space-between;
+    }
+
+    .l_jcSparo{
+        justify-content: space-around;
+    }
+    
+    .l_jcEnd{
+        justify-content: flex-end;
+    }
+}
+
+
+@media only screen and (min-width: 1440px){
+
+    .centrado{
+        width: 1200px;
+    }
+
+    .xl100{
+        width: 100%;
+    }
+
+    .xl95{
+        width: 95%;
+    }
+
+    .xl90{
+        width: 90%;
+    }
+
+    .xl85{
+        width: 85%;
+    }
+
+    .xl80{
+        width: 80%;
+    }
+
+    .xl75{
+        width: 75%;
+    }
+
+    .xl70{
+        width: 70%;
+    }
+
+    .xl65{
+        width: 65%;
+    }
+
+    .xl60{
+        width: 60%;
+    }
+
+    .xl55{
+        width: 55%;
+    }
+
+    .xl50{
+        width: 50%;
+    }
+
+    .xl45{
+        width: 45%;
+    }
+
+    .xl40{
+        width: 40%;
+    }
+
+    .xl35{
+        width: 35%;
+    }
+
+    .xl30{
+        width: 30%;
+    }
+
+    .xl25{
+        width: 25%;
+    }
+
+    .xl20{
+        width: 20%;
+    }
+
+    .xl15{
+        width: 15%;
+    }
+
+    .xl10{
+        width: 10%;
+    }
+
+    .xl5{
+        width: 5%;
+    }
+    
+    .xl_fCol{
+        flex-flow: column;
+    }
+
+    .xl_fColReverse{
+        flex-flow: column-reverse;
+    }
+    
+    .xl_filaWrap{
+        flex-flow: row wrap;
+    }
+
+    .xl_filaReverse{
+        flex-flow: row-reverse;
+    }
+
+    .xl_aiCenter{
+        align-items: center;
+    }
+
+    .xl_aiStart{
+        align-items: flex-start;
+    }
+
+    .xl_jcCenter{
+        justify-content: center;
+    }
+
+    .xl_jcSpabet{
+        justify-content: space-between;
+    }
+
+    .xl_jcSparo{
+        justify-content: space-around;
+    }
+    
+    .xl_jcEnd{
+        justify-content: flex-end;
+    }
+}

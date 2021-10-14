@@ -1,0 +1,762 @@
+
+.contenidoPrincipal{
+	padding: 30px 10px 30px 10px;
+	min-height: 60vh;
+}
+
+.textoCentrado{
+	text-align: center;
+}
+
+.textoDerecha{
+	text-align: right;
+}
+
+/******************* MARGENES ********************/
+.mb20{
+	margin-bottom: 20px;	
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+.mb40{
+	margin-bottom: 40px;	
+}
+
+.mt40{
+    margin-top: 40px;
+}
+
+
+/******************* PADDINGS *******************/
+
+.pv30 {
+    padding: 30px 0px;
+}
+
+.ph30 {
+    padding: 0px 30px;
+}
+
+
+
+/*Estilos Estructurales*/
+
+.contenido{
+    padding: 60px 0;
+}
+
+.centrado{
+    width: 95%;
+}
+
+section{
+    padding: 50px 0;
+}
+
+article{
+    padding: 20px 10px;
+    margin: 10px 0;
+}
+
+.xs100{
+    width: 100%;
+}
+
+.xs95{
+    width: 95%;
+}
+
+.xs90{
+    width: 90%;
+}
+
+.xs85{
+    width: 85%;
+}
+
+.xs80{
+    width: 80%;
+}
+
+.xs75{
+    width: 75%;
+}
+
+.xs70{
+    width: 70%;
+}
+
+.xs65{
+    width: 65%;
+}
+
+.xs60{
+    width: 60%;
+}
+
+.xs55{
+    width: 55%;
+}
+
+.xs50{
+    width: 50%;
+}
+
+.xs45{
+    width: 45%;
+}
+
+.xs40{
+    width: 40%;
+}
+
+.xs35{
+    width: 35%;
+}
+
+.xs30{
+    width: 30%;
+}
+
+.xs25{
+    width: 25%;
+}
+
+.xs20{
+    width: 20%;
+}
+
+.xs15{
+    width: 15%;
+}
+
+.xs10{
+    width: 10%;
+}
+
+.xs5{
+    width: 5%;
+}
+
+/*Fin Estilos Estructurales*/
+
+/*Clases Flex*/
+
+.flex{
+    display: flex;
+}
+
+.xsfc{
+    flex-flow: column;
+}
+
+.xsfcr{
+    flex-flow: column-reverse;
+}
+
+.xsfr{
+    flex-flow: row wrap;
+}
+
+.xsfrr{
+    flex-flow: row-reverse;
+}
+
+.xsac{
+    align-items: center;
+}
+
+.xsafs{
+    align-items: flex-start;
+}
+
+.xsafe{
+    align-items: flex-end;
+}
+
+.xsjc{
+    justify-content: center;
+}
+
+.xssb{
+    justify-content: space-between;
+}
+
+.xssa{
+    justify-content: space-around;
+}
+
+.xsje{
+    justify-content: flex-end;
+}
+
+/*Fin Clases Flex*/
+
+@media only screen and (min-width: 425px){
+
+    /*Estilos Estructurales*/
+
+    .s100{
+        width: 100%;
+    }
+
+    .s95{
+        width: 95%;
+    }
+
+    .s90{
+        width: 90%;
+    }
+
+    .s85{
+        width: 85%;
+    }
+
+    .s80{
+        width: 80%;
+    }
+
+    .s75{
+        width: 75%;
+    }
+
+    .s70{
+        width: 70%;
+    }
+
+    .s65{
+        width: 65%;
+    }
+
+    .s60{
+        width: 60%;
+    }
+
+    .s55{
+        width: 55%;
+    }
+
+    .s50{
+        width: 50%;
+    }
+
+    .s45{
+        width: 45%;
+    }
+
+    .s40{
+        width: 40%;
+    }
+
+    .s35{
+        width: 35%;
+    }
+
+    .s30{
+        width: 30%;
+    }
+
+    .s25{
+        width: 25%;
+    }
+
+    .s20{
+        width: 20%;
+    }
+
+    .s15{
+        width: 15%;
+    }
+
+    .s10{
+        width: 10%;
+    }
+
+    .s5{
+        width: 5%;
+    }
+
+    /*Clases Posicionamiento*/
+    
+    .sfc{
+        flex-flow: column;
+    }
+
+    .sfcr{
+        flex-flow: column-reverse;
+    }
+    
+    .sfr{
+        flex-flow: row wrap;
+    }
+
+    .sfrr{
+        flex-flow: row-reverse;
+    }
+
+    .sac{
+        align-items: center;
+    }
+
+    .safs{
+        align-items: flex-start;
+    }
+
+    .sjc{
+        justify-content: center;
+    }
+
+    .ssb{
+        justify-content: space-between;
+    }
+
+    .ssa{
+        justify-content: space-around;
+    }
+
+    /*Fin Clases Posicionamiento*/
+    
+}
+
+@media only screen and (min-width: 768px){
+    
+    .centrado{
+        width: 95%;
+    }
+    
+    /*Estilos Estructurales*/
+
+    .m100{
+        width: 100%;
+    }
+
+    .m95{
+        width: 95%;
+    }
+
+    .m90{
+        width: 90%;
+    }
+
+    .m85{
+        width: 85%;
+    }
+
+    .m80{
+        width: 80%;
+    }
+
+    .m75{
+        width: 75%;
+    }
+
+    .m70{
+        width: 70%;
+    }
+
+    .m65{
+        width: 65%;
+    }
+
+    .m60{
+        width: 60%;
+    }
+
+    .m55{
+        width: 55%;
+    }
+
+    .m50{
+        width: 50%;
+    }
+
+    .m45{
+        width: 45%;
+    }
+
+    .m40{
+        width: 40%;
+    }
+
+    .m35{
+        width: 35%;
+    }
+
+    .m30{
+        width: 30%;
+    }
+
+    .m25{
+        width: 25%;
+    }
+
+    .m21{
+        width: 21%;
+    }
+
+    .m20{
+        width: 20%;
+    }
+
+    .m18{
+        width: 18%;
+    }
+
+    .m15{
+        width: 15%;
+    }
+
+    .m10{
+        width: 10%;
+    }
+
+    .m5{
+        width: 5%;
+    }
+
+    /*Clases Posicionamiento*/
+    
+    .mfc{
+        flex-flow: column;
+    }
+
+    .mfcr{
+        flex-flow: column-reverse;
+    }
+    
+    .mfr{
+        flex-flow: row wrap;
+    }
+
+    .mfrr{
+        flex-flow: row-reverse;
+    }
+
+    .mac{
+        align-items: center;
+    }
+
+    .mafs{
+        align-items: flex-start;
+    }
+
+    .mjfe {
+        justify-content: flex-end;
+    }
+
+    .mjcs {
+        justify-content: flex-start;
+    }
+
+    .mjc{
+        justify-content: center;
+    }
+
+    .msb{
+        justify-content: space-between;
+    }
+
+    .msa{
+        justify-content: space-around;
+    }
+
+    /*Fin Clases Posicionamiento*/
+    
+}
+
+@media only screen and (min-width: 1024px){
+    
+    /*Estilos Estructurales*/
+
+    .centrado{
+        width: 960px;
+    }
+
+    section{
+        padding: 50px 0;
+    }
+
+    .l100{
+        width: 100%;
+    }
+
+    .l95{
+        width: 95%;
+    }
+
+    .l90{
+        width: 90%;
+    }
+
+    .l85{
+        width: 85%;
+    }
+
+    .l80{
+        width: 80%;
+    }
+
+    .l75{
+        width: 75%;
+    }
+
+    .l70{
+        width: 70%;
+    }
+
+    .l65{
+        width: 65%;
+    }
+
+    .l60{
+        width: 60%;
+    }
+
+    .l55{
+        width: 55%;
+    }
+
+    .l50{
+        width: 50%;
+    }
+
+    .l48{
+        width: 48%;
+    }
+
+    .l45{
+        width: 45%;
+    }
+
+    .l40{
+        width: 40%;
+    }
+
+    .l35{
+        width: 35%;
+    }
+
+    .l30{
+        width: 30%;
+    }
+
+    .l25{
+        width: 25%;
+    }
+
+    .l23 {
+        width: 23%;
+    }
+
+    .l21{
+        width: 21%;
+    }
+
+    .l20{
+        width: 20%;
+    }
+
+    .l18{
+        width: 18%;
+    }
+
+    .l15{
+        width: 15%;
+    }
+
+    .l10{
+        width: 10%;
+    }
+
+    .l5{
+        width: 5%;
+    }
+    
+    /*Fin Clases Estructurales*/
+
+    /*Clases Posicionamiento*/
+    
+    .lfc{
+        flex-flow: column;
+    }
+
+    .lfcr{
+        flex-flow: column-reverse;
+    }
+    
+    .lfr{
+        flex-flow: row wrap;
+    }
+
+    .lfrr{
+        flex-flow: row-reverse;
+    }
+
+    .lac{
+        align-items: center;
+    }
+
+    .lafs{
+        align-items: flex-start;
+    }
+
+    .ljfe {
+        justify-content: flex-end;
+    }
+
+    .ljc{
+        justify-content: center;
+    }
+
+    .ljcs {
+        justify-content: flex-start;
+    }
+
+    .lsb{
+        justify-content: space-between;
+    }
+
+    .lsa{
+        justify-content: space-around;
+    }
+
+    /*Fin Clases Posicionamiento*/
+    
+}
+
+@media only screen and (min-width: 1440px){
+    
+    /*Estilos Estructurales*/
+
+    .centrado{
+        width: 1200px;
+    }
+
+    .xl100{
+        width: 100%;
+    }
+
+    .xl95{
+        width: 95%;
+    }
+
+    .xl90{
+        width: 90%;
+    }
+
+    .xl85{
+        width: 85%;
+    }
+
+    .xl80{
+        width: 80%;
+    }
+
+    .xl75{
+        width: 75%;
+    }
+
+    .xl70{
+        width: 70%;
+    }
+
+    .xl65{
+        width: 65%;
+    }
+
+    .xl60{
+        width: 60%;
+    }
+
+    .xl55{
+        width: 55%;
+    }
+
+    .xl50{
+        width: 50%;
+    }
+
+    .xl45{
+        width: 45%;
+    }
+
+    .xl40{
+        width: 40%;
+    }
+
+    .xl35{
+        width: 35%;
+    }
+
+    .xl30{
+        width: 30%;
+    }
+
+    .xl25{
+        width: 25%;
+    }
+
+    .xl20{
+        width: 20%;
+    }
+
+    .xl15{
+        width: 15%;
+    }
+
+    .xl10{
+        width: 10%;
+    }
+
+    .xl5{
+        width: 5%;
+    }
+    
+    /*Fin Clases Estructurales*/
+
+    /*Clases Posicionamiento*/
+    
+    .xlfc{
+        flex-flow: column;
+    }
+
+    .xlfcr{
+        flex-flow: column-reverse;
+    }
+    
+    .xlfr{
+        flex-flow: row wrap;
+    }
+
+    .xlfrr{
+        flex-flow: row-reverse;
+    }
+
+    .xlac{
+        align-items: center;
+    }
+
+    .xlafs{
+        align-items: flex-start;
+    }
+
+    .xljc{
+        justify-content: center;
+    }
+
+    .xlsb{
+        justify-content: space-between;
+    }
+
+    .xlsa{
+        justify-content: space-around;
+    }
+
+    /*Fin Clases Posicionamiento*/
+    
+}
+
+/*Fin Estilos Estructurales*/
