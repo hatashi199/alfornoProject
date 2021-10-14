@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+.fondoLogin {
+    background-image: url(../../images/banner1.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.fondoNegro_Claro {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+}
+
+.errorMensaje {
+    background-color: #ce2b37;
+    color: #FFF;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25%;
+}
+
+.errorMensaje p {
+    padding: 8px 12px;
+}
+
+.cajaInicio h1 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.cajaInicio {
+    background-color: #ce2b37;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 300;
+    padding: 30px;
+}
+
+#controlMenu a {
+    color: #FFF;
+    font-size: 18px;
+}
+
+#controlMenu .controlActivo {
+    font-size: 25px;
+    border-bottom: 2px solid #FFF;
+}
+
+.logOut a {
+    color: #ce2b37;
+    background-color: #FFF;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.logOut a:after {
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+#cabeceraCtrl input {
+    margin-bottom: 0px;
+}
+
+#cabeceraCtrl .botonBuscar {
+    background-color: #FFF;
+}
+
+#cabeceraCtrl .botonBuscar::after {
+    color: #ce2b37;
+}
+
+.linkEd_Borr a {
+    color: #FFF;
+    background-color: #ce2b37;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.formControl {
+    padding: 25px 0px;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(224,224,224,1);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(224,224,224,1);
+    box-shadow: 0px 0px 35px 0px rgba(224,224,224,1);
+}
+
+.filtroControl {
+    padding: 25px;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(224,224,224,1);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(224,224,224,1);
+    box-shadow: 0px 0px 35px 0px rgba(224,224,224,1);  
+}
+
+.formControl h2 {
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.formControl h3 {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.formControl input {
+    border: 1px solid #ce2b37;
+}
+
+.formControl .imgGaleria {
+    width: 150px;
+    height: 100px;
+}
+
+.inputFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    position: absolute;
+    z-index: -30;
+}
+
+.dolarFile {
+    background-color: #ce2b37;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+

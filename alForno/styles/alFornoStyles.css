@@ -1,0 +1,560 @@
+* {
+    box-sizing: border-box;
+}
+
+/*-- GENERAL --*/
+
+.fondoRojo {
+    background-color: #ce2b37;
+}
+
+.fondoBlanco {
+    background-color: #FFF;
+}
+
+.fondoImgCentrado {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, select, textarea {
+    -moz-appearance: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+select {
+    background-image: url(../images/ico-select.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border: 1px solid #ce2b37;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.posRel {
+    position: relative;
+}
+
+.txNegro {
+    color: #474747;
+}
+
+.txGris {
+    color: #999;
+}
+
+.txBlanco {
+    color: #FFF;
+}
+
+/*-- HEADER --*/
+
+.barraVerde {
+    background-color: #009246;
+    height: 6px;
+    width: 35%;
+}
+
+.barraBlanca {
+    background-color: #FFF;
+    height: 6px;
+    width: 30%;
+}
+
+.barraRoja {
+    background-color: #ce2b37;
+    height: 6px;
+    width: 35%;
+}
+
+.toggle {
+    border: 0px;
+    background-color: transparent;
+}
+
+.toggle>a {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.datosCabecera {
+    display: none;
+}
+
+.tel, .ubi, .idioma, .tel2, .dir, .email {
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+.tel::before {
+    content: "\f095";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: #FFF;
+    margin-right: 8px;
+}
+
+.ubi::before {
+    content: "\f689";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    margin-right: 8px;
+    color: #FFF;
+}
+
+.idioma::before {
+    content: "\f1ab";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 8px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+#menuPrincipal {
+    display: none;
+}
+
+#mapid .leaflet-top, .leaflet-bottom {
+    z-index: 999;
+}
+
+.sm-blue, .sm-blue a, .sm-blue a:hover,
+.sm-blue a:visited, .sm-blue a:active, 
+.sm-blue a:focus {
+    background-color: #ce2b37;
+    box-shadow: none;
+    border-radius: 0px;
+    background-image: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: unset;
+}
+
+.sm-blue li {
+    border-left: 1px solid #FFF;
+    padding-left: 5%;
+}
+
+.sm::after {
+    content: none;
+}
+
+/*-- BANNER --*/
+
+#banner_1 {
+    background-image: url(../images/banner1.jpg);
+    height: 300px;
+}
+
+#banner_2 {
+    background-image: url(../images/banner2.jpg);
+    height: 300px;
+}
+
+#banner_3 {
+    background-image: url(../images/banner3.jpg);
+    height: 300px;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+#banner .owl-dot>span {
+    background: #FFF;
+    transition: all 0.3s ease;
+}
+
+#banner .carousel1 .owl-dot.active>span, #banner .carousel1 .owl-dot:hover>span {
+    background: #ce2b37;
+}
+
+#banner h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#banner p {
+    line-height: 22px;
+}
+
+/*-- PERSONAL --*/
+
+.imgPersonal {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+#personal h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+#personal h5 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.iconosRRSS a {
+    color: #ce2b37;
+    font-size: 18px;
+}
+
+/*-- PLATOS --*/
+
+.imgPlato {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+/*-- GALERIA --*/
+
+.imgGaleria {
+    width: 300px;
+    height: 250px;
+}
+
+#galeriaPage .imgGaleria .overlayGaleria {
+    transition: all 0.3s ease;
+}
+
+#galeriaPage .imgGaleria:hover .overlayGaleria {
+    opacity: 1;
+}
+
+.overlayGaleria {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.overlayGaleria::after {
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFF;
+    text-align: center;
+}
+
+#galeriaPage .imgGaleria {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#galeriaPage h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#galeria {
+    display: none;
+}
+
+#galeria .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 80px;
+}
+
+#galeria .owl-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    line-height: 80px;
+    transform: translateY(-50%);
+}
+
+#galeria .owl-carousel {
+    position: initial;
+}
+
+#galeria .owl-prev:hover, #galeria .owl-next:hover {
+    background-color: transparent;
+}
+
+#galeria .owl-prev span, #galeria .owl-next span {
+    font-size: 80px;
+    color: #ce2b37;
+}
+
+/*-- FOOTER --*/
+
+footer .iconosRRSS a {
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.tel2::before {
+    content: "\f3cd";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 8px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.dir::before {
+    content: "\f5a0";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 8px;
+    font-weight: 700;
+    color: #FFF;  
+}
+
+.email::before {
+    content: "\f1fa";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 8px;
+    font-weight: 700;
+    color: #FFF; 
+}
+
+footer h3, #contacto h3 {
+    font-size: 35px;
+}
+
+/*-- CARTA --*/
+
+#platos h2 {
+    font-size: 40px; 
+    font-weight: 400;
+}
+
+#platos h3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.precio {
+    color: #ce2b37;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+
+.filtrosCarta h3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.filtrosCarta li {
+    margin-bottom: 10px;
+}
+
+.filtrosCarta li>a {
+    color: #999;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.filtrosCarta input {
+    border: 1px solid #ce2b37;
+    margin-bottom: 0px;
+}
+
+.botonBuscar {
+    background-color: #ce2b37;
+    border-radius: 5px;
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.botonBuscar::after {
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+}
+
+.botonRojo {
+    background-color: #ce2b37;
+    border-radius: 5px;
+    padding: 8px 12px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+#fichaPlato h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#fichaPlato h5, #fichaPlato h3 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+#fichaPlato p {
+    line-height: 25px;
+}
+
+.filtrosCarta a.filtroActivo {
+    color: #ce2b37;
+    font-weight: 700;
+}
+
+/*-- CONTACTO --*/
+
+input {
+    padding: 8px 30px 8px 8px;
+    border: 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+    margin-bottom: 10px;
+    border: 0px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+input.botonBlanco {
+    padding: 8px 12px;
+
+}
+
+.botonBlanco {
+    background-color: #FFF;
+    color: #ce2b37;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#mapid {
+    height: 250px;
+}
+
+#contacto .tel, #contacto .tel2, #contacto .dir,
+#contacto .email {
+    color: #474747;
+}
+
+#contacto .tel::before, #contacto .tel2::before,
+#contacto .dir::before, #contacto .email::before {
+    color: #474747;
+}
+
+/*-- PAGINACIÓN --*/
+
+.botonPag {
+    background-color: #ce2b37;
+    border-radius: 5px;
+    padding: 8px;
+    color: #FFF;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.botonPag:last-of-type {
+    margin-right: 0px;
+}
+
+.pagActiva {
+    background-color: #FFF;
+    border: 1px solid #ce2b37;
+    color: #ce2b37;
+}
+
+@media only screen and (min-width: 425px) {
+    #galeriaPage .imgGaleria {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 810px) {
+    .toggle {
+        display: none;
+    }
+
+    #menuPrincipal {
+        display: flex;
+    }
+
+    .datosCabecera {
+        display: flex;
+    }
+
+    #personal>.mBottom40 {
+        margin-bottom: 0px;
+    }
+
+    #galeria {
+        display: flex;
+    }
+
+    .iconosRRSS {
+        margin-bottom: 0px;
+    }
+
+    .filtrosCarta>div:first-of-type {
+        margin-bottom: 60px;
+    }
+
+    .muestraPlatos {
+        margin-top: 0px;
+    }
+
+    #galeriaPage .imgGaleria {
+        width: 32%;
+    }
+
+    #fichaPlato h3 {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #banner_1, #banner_2, #banner_3 {
+        height: 500px;
+    }
+}
